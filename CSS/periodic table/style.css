@@ -1,0 +1,58 @@
+*{
+    text-align: center;
+}
+sup{
+    position: relative;
+    left: -15px;
+    top: -13px;
+}
+table{
+    font-size: 18px;
+    font-weight: bold;
+}
+th{
+    border: none !important; 
+}
+td{
+    width: 65px;
+    height: 65px;
+}
+table{
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+.blank{
+    border: none;
+}
+.pink, .green, .blue, .yellow{
+    background-color: rgb(226, 119, 174);
+    border: none;
+    border-radius: 5px;
+    box-shadow:5px 5px 10px #000;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.pink:hover{
+    background-color: rgb(224, 89, 159);
+}
+.green{
+    background-color: rgb(63, 225, 63);
+}
+.green:hover{
+    background-color: rgb(17, 199, 17) ;
+}
+
+.blue{
+    background-color: rgb(98, 160, 232);
+}
+.blue:hover{
+    background-color: rgb(62, 141, 232);
+}
+.yellow{
+    background-color: rgb(236, 236, 72);
+}
+.yellow:hover{
+    background-color:  rgb(225, 225, 19);
+}

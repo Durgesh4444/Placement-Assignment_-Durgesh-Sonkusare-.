@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 5vh;
+}
+.first{
+    width: 100%;
+    display: flex;
+    height: 20vh;
+    gap: 3rem;
+}
+.first .l1{
+    width: 30%;
+    
+    background-color: #63A0CE;
+
+}
+.first .r1{
+    width: 70%;
+    background-color: #ABABA9;
+}
+
+.second{
+    width: 100%;
+    margin: 3rem 0;
+    
+}
+.second .full{
+    width: 100%;
+    height: 40vh;
+    background-color: #797977;
+}
+
+.third{
+    width: 100%;
+    display: flex;
+    gap: 3rem;
+}
+.third .sky{
+    width: 32%;
+    background-color: #B2D5EB;
+    height: 25vh;
+
+}
+
+.four{
+    width: 100%;
+    margin-top: 3rem;
+}
+.four .gray{
+    height: 30vh;
+    background-color: #C5C6C0;
+}
+
+/* mobile responsive */
+
+@media (max-width:850px){
+    .first {
+
+        height: 10vh;
+    }
+    .second .full {
+    
+        height: 25vh;
+    }
+    .third .sky {
+
+        height: 20vh;
+    }
+    .four .gray {
+        height: 20vh;
+        
+    }
+}
+
+/* mobile responsive */
+
+@media (max-width:450px){
+    body {
+        padding: 3vh;
+    }
+    .first {
+        gap: 1.5rem;
+        height: 9vh;
+    }
+    .second {
+        margin: 1.5rem 0;
+    }
+    .second .full {
+        height: 18vh;
+    }
+    .third {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .third .sky {
+        width: 100%;
+        height: 9vh;
+    
+    }
+    .four {
+        margin-top: 1.5rem;
+    }
+    .four .gray {
+        height: 18vh;
+    }
+}
